@@ -31,14 +31,16 @@ main() {
     
     while(numero > 0){
         cifra = numero % 10;
+       
         //elevare a esponente n    
         //calcolo del numero Amstrong
         int i;
         valore = cifra;
-        for(i = 0; i < cifre; i++){
-            valore = valore * cifra;            
+        for(i = 1; i < cifre; i++){
+            valore = valore * cifra; 	           
         }
-        somma = somma + valore;
+        somma = somma + valore; 
+	
         numero = numero / 10;
     }
 
